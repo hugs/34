@@ -36,12 +36,6 @@ Yet another Selenium WebDriver library for Node...
 
 ### API
 
-    // Synchronisation
-    // ---------------
-    se.timeouts.implicitWait = 10000
-    se.timeouts.pageLoad = 10000
-    se.timeouts.asyncScript = 10000
-
 
     // Navigation
     // ----------
@@ -204,6 +198,15 @@ Yet another Selenium WebDriver library for Node...
 
     // Maximize size of current window
     se.maximize()
+    
+    
+    
+    // Synchronisation
+    // ---------------
+    se.timeouts.implicitWait = 10000
+    se.timeouts.pageLoad = 10000
+    se.timeouts.asyncScript = 10000
+    
 
     // (For mobile...)
     se.orientation
