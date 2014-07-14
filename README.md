@@ -20,7 +20,7 @@ Yet another Selenium WebDriver library for Node...
       - e.g. driver.window().getFrombulationStatusOfThing(By.whyAmIStillTyping())
 
 ### Non-Goals:
-  - Automating non-web native apps (although I hope this is temporary!)
+  - Automating non-web native apps. (Although I hope this is temporary!)
 
 <hr>
 
