@@ -199,6 +199,11 @@ Yet another Selenium WebDriver library for Node...
     // Maximize size of current window
     se.maximize()
     
+    // (For mobile...)
+    se.orientation
+    se.orientation = LANDSCAPE
+    se.orientation = PORTRAIT
+    
     
     
     // Synchronisation
@@ -208,7 +213,3 @@ Yet another Selenium WebDriver library for Node...
     se.timeouts.asyncScript = 10000
     
 
-    // (For mobile...)
-    se.orientation
-    se.orientation = LANDSCAPE
-    se.orientation = PORTRAIT
