@@ -58,16 +58,16 @@ Yet another Selenium WebDriver library for Node...
 
     // Frame Navigation
 
-    //   Switch focus to frame
+    // Switch focus to frame
     se("#IdOfSomeFrame").focus()
 
-    //   Switch focus to parent frame
+    // Switch focus to parent frame
     se.parent()
 
 
     // Window Navigation
 
-    //   Switch focus to window
+    // Switch focus to window
     se.window('nameOfWindow')
 
 
