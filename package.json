@@ -1,0 +1,28 @@
+{
+  "name": "34",
+  "version": "0.0.1",
+  "description": "Yet another Selenium WebDriver library",
+  "author": {
+    "name": "Jason Huggins",
+    "email": "jrhuggins@gmail.com"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "sync",
+    "automation",
+    "testing"
+  ],
+  "homepage": "https://github.com/hugs/34",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugs/34.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/hugs/34/issues"
+  },
+  "license": "MIT"
+}
