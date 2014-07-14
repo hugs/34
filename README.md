@@ -42,7 +42,7 @@ Yet another Selenium WebDriver library for Node...
 
     // Open a URL
     se.url = 'http://google.com'
-    se.open = function(url) { return se.url = url }
+    se.open = function(url) { return this.url = url }
     se.go = se.open
 
     se.back()
