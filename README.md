@@ -3,6 +3,8 @@
 
 Yet another Selenium WebDriver library for Node...
 
+(Warning: This is a design doc... There's no code, yet! But when it lands, it'll most likely be based on [webdriver-http-sync](https://github.com/groupon-testium/webdriver-http-sync).
+
 ### Install
 
     npm install 34
