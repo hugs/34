@@ -151,7 +151,7 @@ Yet another Selenium WebDriver library for Node...
     se.mouse.doubleClick()
     se.mouse.down()
     se.mouse.moveBy(20,100)
-    se.mouse.moveTo(0,0
+    se.mouse.moveTo(0,0)
     se.mouse.up()
 
     // Slim Jim (https://www.youtube.com/watch?v=KbneMYYI78Q)
