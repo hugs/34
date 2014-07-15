@@ -15,9 +15,9 @@ Yet another Selenium WebDriver library for Node...
    - Yeah:
       - Pithy property names FTW
       - Easy discovery of properties via tab completion in the console.
-      - e.g. thing.fromulated
+      - e.g. thing.frobulate
    - Boo:
-      - e.g. driver.window().getFrombulationStatusOfThing(By.whyAmIStillTyping())
+      - e.g. driver.window().getFrobulateStatusOfThing(By.whyAmIStillTyping())
 
 ### Non-Goals:
   - Automating non-web native apps. (Although I hope this is temporary!)
@@ -59,7 +59,7 @@ Yet another Selenium WebDriver library for Node...
     // Frame Navigation
 
     // Switch focus to frame
-    se("#IdOfSomeFrame").focus()
+    se('#IdOfSomeFrame').focus()
 
     // Switch focus to parent frame
     se.parent()
@@ -99,7 +99,7 @@ Yet another Selenium WebDriver library for Node...
     se.activeElement
 
     // Find Element
-    e = se("#id")
+    e = se('#id')
     // Find All elements
     es = se('*[#id]')
 
@@ -141,7 +141,7 @@ Yet another Selenium WebDriver library for Node...
 
     // Driver
 
-    // Keyboards
+    // Keyboard
     se.keys()
     se.keyDown()
     se.keyUp()
@@ -150,15 +150,15 @@ Yet another Selenium WebDriver library for Node...
     se.mouse.click()
     se.mouse.doubleClick()
     se.mouse.down()
-    se.mouse.moveTo(0,0
     se.mouse.moveBy(20,100)
+    se.mouse.moveTo(0,0
     se.mouse.up()
 
     // Slim Jim (https://www.youtube.com/watch?v=KbneMYYI78Q)
-    se.touch.tap()
     se.touch.down()
-    se.touch.up()
     se.touch.move()
+    se.touch.tap()
+    se.touch.up()
 
     // Execute JavaScript
     se.execute()
@@ -168,8 +168,9 @@ Yet another Selenium WebDriver library for Node...
     se.screenshot()
 
     // Element
-    e.click()
     e.clear()
+    e.click()
+
     e.keys()
     e.submit()
 
@@ -194,22 +195,20 @@ Yet another Selenium WebDriver library for Node...
     se.position
 
     // Get position of current window
-    se.position = 200,200
+    se.position = [200,200]
 
     // Maximize size of current window
     se.maximize()
-    
+
     // (For mobile...)
     se.orientation
     se.orientation = LANDSCAPE
     se.orientation = PORTRAIT
-    
-    
-    
+
+
+
     // Synchronisation
     // ---------------
     se.timeouts.implicitWait = 10000
     se.timeouts.pageLoad = 10000
     se.timeouts.asyncScript = 10000
-    
-
