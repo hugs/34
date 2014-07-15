@@ -170,7 +170,6 @@ Yet another Selenium WebDriver library for Node...
     // Element
     e.clear()
     e.click()
-
     e.keys()
     e.submit()
 
