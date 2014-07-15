@@ -68,7 +68,7 @@ Yet another Selenium WebDriver library for Node...
     // Window Navigation
 
     // Switch focus to window
-    se.window('nameOfWindow')
+    se.window = 'windowHandleId'
 
 
 
