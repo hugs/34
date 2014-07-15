@@ -15,9 +15,9 @@ Yet another Selenium WebDriver library for Node...
    - Yeah:
       - Pithy property names FTW
       - Easy discovery of properties via tab completion in the console.
-      - e.g. thing.frobulate
+      - e.g. thing.frobulated
    - Boo:
-      - e.g. driver.window().getFrobulateStatusOfThing(By.whyAmIStillTyping())
+      - e.g. driver.window().getFrobulationStatusOfThing(By.whyAmIStillTyping())
 
 ### Non-Goals:
   - Automating non-web native apps. (Although I hope this is temporary!)
