@@ -164,6 +164,9 @@ Yet another Selenium WebDriver library for Node...
     se.execute()
     se.executeAsync()
 
+    // Wait for expression to return true or time out (milliseconds)
+    se.waitFor('return true', 10000)
+
     // Take a Screenshot
     se.screenshot()
 
