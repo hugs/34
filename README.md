@@ -173,8 +173,10 @@ Yet another Selenium WebDriver library for Node...
     // Element
     e.clear()
     e.click()
+    e.focus()    
     e.keys()
     e.submit()
+    e.scrollIntoView()
 
     // Alerts
     se.alert.accept()
